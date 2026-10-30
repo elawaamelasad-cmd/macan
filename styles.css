@@ -1,10 +1,10 @@
 /* MACAN — black & gold, RTL, mobile first */
 
-@font-face { font-family: "Tajawal"; src: url("assets/fonts/Tajawal-Black.ttf") format("truetype"); font-weight: 900; font-display: swap; }
-@font-face { font-family: "Tajawal"; src: url("assets/fonts/Tajawal-ExtraBold.ttf") format("truetype"); font-weight: 800; font-display: swap; }
-@font-face { font-family: "Tajawal"; src: url("assets/fonts/Tajawal-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
-@font-face { font-family: "Plex Arabic"; src: url("assets/fonts/IBMPlexSansArabic-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
-@font-face { font-family: "Plex Arabic"; src: url("assets/fonts/IBMPlexSansArabic-SemiBold.ttf") format("truetype"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Tajawal"; src: url("fonts/Tajawal-Black.ttf") format("truetype"); font-weight: 900; font-display: swap; }
+@font-face { font-family: "Tajawal"; src: url("fonts/Tajawal-ExtraBold.ttf") format("truetype"); font-weight: 800; font-display: swap; }
+@font-face { font-family: "Tajawal"; src: url("fonts/Tajawal-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Plex Arabic"; src: url("fonts/IBMPlexSansArabic-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Plex Arabic"; src: url("fonts/IBMPlexSansArabic-SemiBold.ttf") format("truetype"); font-weight: 600; font-display: swap; }
 
 :root {
   --ink: #0B0906;
@@ -118,7 +118,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   content: ""; position: absolute; inset: 0; pointer-events: none;
   background: linear-gradient(110deg, transparent 35%, rgba(255, 250, 225, .95) 50%, transparent 65%);
   background-size: 300% 100%; background-position: 150% 0; mix-blend-mode: overlay;
-  -webkit-mask: url("assets/logo.webp") center / contain no-repeat; mask: url("assets/logo.webp") center / contain no-repeat;
+  -webkit-mask: url("logo.webp") center / contain no-repeat; mask: url("logo.webp") center / contain no-repeat;
   animation: sweep 2.4s var(--ease) 1s forwards, sweep 2.4s var(--ease) 9s infinite;
 }
 @keyframes sweep { from { background-position: 150% 0; } to { background-position: -60% 0; } }
